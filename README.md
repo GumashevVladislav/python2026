@@ -1,3 +1,1 @@
 # python2026
-
-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
