@@ -1,0 +1,8 @@
+usage_log = [('laser', 4), ('printer', 6), ('laser', 3), ('solder', 5)]
+finished = ['printer']
+tool_to_repair = "laser"
+new_usage = tool_usage.copy()
+if tool_to_repair in new_usage:
+	del new_usage[tool_to_repair]
+total_usage = sum(new_usage.values())
+print
